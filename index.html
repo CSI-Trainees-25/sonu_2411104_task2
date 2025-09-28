@@ -9,13 +9,19 @@
 <body>
   <div class="hdr">
     <div class="leftside">
-      <input type="" placeholder="Task" class="inp">
+      <input type="text" placeholder="Task" class="task-name">
+      <input type="date" class="task-date">
+      <select class="task-difficulty">
+        <option value="High">High</option>
+        <option value="Medium">Medium</option>
+        <option value="Low">Low</option>
+      </select>
       <button class="btn">+</button>
     </div>
     <div class="rightside">
-      <span>0 Task</span>
-      <span>0 In progress</span>
-      <span>0 Done</span>
+      <span class="total">0 Task</span>
+      <span class="progress">0 In progress</span>
+      <span class="done">0 Done</span>
     </div>
   </div>
 
@@ -25,10 +31,6 @@
 
     </div>
   </div>
-
-
-
-    
 </div>
 
 
